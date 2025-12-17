@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.upload-box input {
+    margin-top: 10px;
+}
+
+.file-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.file-list th,
+.file-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+.file-list th {
+    background: #f0f2f5;
+    font-size: 14px;
+}
+
+.file-actions button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-download {
+    background: #4caf50;
+    color: white;
+}
+
+.btn-share {
+    background: #2196f3;
+    color: white;
+}
+
+.btn-download:hover {
+    background: #43a047;
+}
+
+.btn-share:hover {
+    background: #1e88e5;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.logout-btn {
+    padding: 6px 12px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background: #d32f2f;
+}
+
+
+.login-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f7fa;
+}
+
+.login-card {
+    width: 360px;
+    background: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.login-card input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-card input:focus {
+    outline: none;
+    border-color: #2196f3;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-card button:hover {
+    background: #1e88e5;
+}
+
+.link {
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
