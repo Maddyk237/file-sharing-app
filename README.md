@@ -25,3 +25,20 @@ A simple full-stack file sharing application similar to Google Drive.
 cd backend
 npm install
 npm run dev
+```
+
+
+Create .env:
+
+PORT=5000
+MONGO_URI=your_mongo_url
+JWT_SECRET=your_secret
+
+Frontend
+cd frontend
+npm install
+npm run dev
+
+Notes
+Only authenticated users can access shared files
+Public access is blocked
